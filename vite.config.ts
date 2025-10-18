@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/local-qr-blog/", // <-- add this line
+  base: "/local-qr-blog/",
   server: {
     host: "::",
     port: 8080,
